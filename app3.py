@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image 
 st.title("Personal Bank Details")
+img = Image.open("Annotation 25.png")
+st.image(img)
 st.text_input(" first Name")
 st.text_input(" Middle Name")
 st.text_input(" Surname")
