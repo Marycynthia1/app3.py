@@ -1,6 +1,5 @@
 import streamlit as st
-from PIL import Image
-st.camera_input("say chesse") 
+from PIL import Image 
 st.title("Personal Bank Details")
 img = Image.open("Annotation 25.png")
 st.image(img)
